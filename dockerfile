@@ -1,5 +1,5 @@
 FROM node:alpine
-WORDDIR /app
+WORKDIR /app
 COPY . .
 RUN npm install
 EXPOSE 3000
